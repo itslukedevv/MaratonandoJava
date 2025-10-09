@@ -1,5 +1,6 @@
 ### IntelliJ IDEA ###
 out/
+out/production
 !**/src/main/**/out/
 !**/src/test/**/out/
 K:\Programacao\maratonando-java\curso-do-dev-dojo\src\ANOTACOESGERAIS.java
