@@ -14,7 +14,7 @@ public class SobrescritaComException01 {
 
         try {
             f1.salvar();
-        } catch (LoginInvalidoException | FileNotFoundException e ) {
+        } catch (LoginInvalidoException e ) {
             e.printStackTrace();
         }
     }

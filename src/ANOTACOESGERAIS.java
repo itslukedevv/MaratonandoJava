@@ -102,6 +102,21 @@ public @interface ANOTACOESGERAIS {
      * finally sempre vai ser executado independentemente se o catch for ou nao ativado
      * sempre tentar tratar o erro com a devida excecao, e colocar sempre a generica por ultimo
      * try with resources retira mto codigo, conferir o test do Oexception, to com preguica de anotar aq
+     * Unchecekd (RuntimeException e suas subclasses) = erro no código (você deu mole, foi garoto, garoteou, brincou em serviço)
+      Checked = (Exception, IOException e suas subclasses) = erro fora do código (parabéns).  Exemplo: FileNotFoundException (
+      O arquivo que você pediu não existe no disco).
+     */
+
+    /*
+     *  ======================= WRAPPERS ===========================
+     * auto boxing eh quando eu escrevo o wrapper e dps eu venho com o
+        tipo primitivo. ex: Integer intW = 1;
+     * unboxing eh quando eu uso primeiro o tipo primitivo pra transformar em wrapper.
+        ex: int i = IntW;
+     */
+    /*
+     *  ======================= STRINGS ===========================
+     * Strings sao imutaveis.
      */
 
 }
