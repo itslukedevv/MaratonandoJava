@@ -92,7 +92,16 @@ public @interface ANOTACOESGERAIS {
      * Checked = sao filhas da classe exception diretamente e se n tratadas irao lancar um erro em tempo de
        compilacao, n dando nem tempo de compilar o codigo. é obrigatorio ter q fazer o tratamento delas.
      * Unchecked = sao filhas ou a propria RuntimeException e nao é obvrigatorio tratar elas
-
+     * Se tiver throws na assinatura do metodo é tipo como se fosse "existe a possibilidade de lancar esse tal erro"
+     assinatura do metodo é o private static int divisao blablala
+     * se o metodo q sla cria um arquivo for publico, faz sentido deixar pra tratar a excecao quando
+       o codigo q chamar o metodo criar aquivo, doque tratar direto no metodo. o oposto acontece quando o
+       metodo é privado.
+     *  throw new RuntimeException("mensagem"); se usar esse esse codigo, ai fica preferencial
+         para qm esta chamando o metodo a criar um trycatch
+     * finally sempre vai ser executado independentemente se o catch for ou nao ativado
+     * sempre tentar tratar o erro com a devida excecao, e colocar sempre a generica por ultimo
+     * try with resources retira mto codigo, conferir o test do Oexception, to com preguica de anotar aq
      */
 
 }

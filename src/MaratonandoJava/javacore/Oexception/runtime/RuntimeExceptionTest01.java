@@ -7,3 +7,6 @@ public class RuntimeExceptionTest01 {
         System.out.println(num[1]);
     }
 }
+
+
+
