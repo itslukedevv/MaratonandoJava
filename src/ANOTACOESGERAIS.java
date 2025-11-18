@@ -117,7 +117,11 @@ public @interface ANOTACOESGERAIS {
     /*
      *  ======================= STRINGS ===========================
      * Strings sao imutaveis.
+     * quando se cria uma string, ela eh criada no pool de strings
+     * quando se criar um strinbuilder vai ser criada dentro do
+       objeto/memoria. o mesmo vale para stringbuffer
      */
+
 
 }
 
