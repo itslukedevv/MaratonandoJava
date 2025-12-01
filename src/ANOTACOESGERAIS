@@ -1,5 +1,3 @@
-public @interface ANOTACOESGERAIS {
-    /*
     *  ==================== SOBRE O STATIC E BLOCO DE INICIALIZACAO ======================
     * 0 - Bloco de iniciializacao estatico(STATIC) da super classe é executado quando
           a jvm carregar a classe pai.
@@ -122,6 +120,11 @@ public @interface ANOTACOESGERAIS {
        objeto/memoria. o mesmo vale para stringbuffer
      */
 
+     *  ======================= DATAS ===========================
+     * Sempre usar o LocalDate, exceto quando a versao do java nao permitir
+     * Aula 119 para consulta do LocalDate
+     * Format transforma o objeto pra uma string
+     * Parse transforma a string pra um objeto
 
-}
+
 
